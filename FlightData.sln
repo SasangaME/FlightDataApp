@@ -11,10 +11,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{280737
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightData.Client", "FlightData.Client\FlightData.Client.csproj", "{B653A2A9-736F-4193-AD96-1AF3DFA88281}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{7736366F-8AAA-47B3-8A72-CDC5E849DAD3}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightData.SharedModels", "FlightData.SharedModels\FlightData.SharedModels.csproj", "{0E99FC12-AAD4-48F9-916F-EB894691E47C}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,10 +25,6 @@ Global
 		{B653A2A9-736F-4193-AD96-1AF3DFA88281}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B653A2A9-736F-4193-AD96-1AF3DFA88281}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B653A2A9-736F-4193-AD96-1AF3DFA88281}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0E99FC12-AAD4-48F9-916F-EB894691E47C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0E99FC12-AAD4-48F9-916F-EB894691E47C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0E99FC12-AAD4-48F9-916F-EB894691E47C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0E99FC12-AAD4-48F9-916F-EB894691E47C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -40,7 +32,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{D08A347B-38E9-473C-8974-51F7118E4A65} = {287486FC-4A32-43A3-9A2D-E782A9E657A2}
 		{B653A2A9-736F-4193-AD96-1AF3DFA88281} = {28073740-C789-46BD-AD4D-B69FF2BC4ABD}
-		{0E99FC12-AAD4-48F9-916F-EB894691E47C} = {7736366F-8AAA-47B3-8A72-CDC5E849DAD3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {923C273D-9481-479E-AA99-CC8C07AFA579}
