@@ -1,0 +1,6 @@
+.vs
+.idea
+/FlightData.API/bin/*
+/FlightData.API/obj/*
+/FlightData.Client/bin/*
+/FlightData.Client/obj/*
