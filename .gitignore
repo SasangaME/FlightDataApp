@@ -4,3 +4,5 @@
 /FlightData.API/obj/*
 /FlightData.Client/bin/*
 /FlightData.Client/obj/*
+/FlightData.SharedModels/bin/*
+/FlightData.SharedModels/obj
