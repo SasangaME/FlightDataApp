@@ -5,4 +5,8 @@
 /FlightData.Client/bin/*
 /FlightData.Client/obj/*
 /FlightData.SharedModels/bin/*
-/FlightData.SharedModels/obj
+/FlightData.SharedModels/obj/*
+/FlightData.BusinessLogic/obj/*
+/FlightData.Db/obj
+/FlightData.Models/obj
+/FlightData.Repositories/obj
