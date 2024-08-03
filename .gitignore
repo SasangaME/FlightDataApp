@@ -10,3 +10,7 @@
 /FlightData.Db/obj
 /FlightData.Models/obj
 /FlightData.Repositories/obj
+/FlightData.BusinessLogic/bin/Debug/net8.0
+/FlightData.Db/bin/Debug/net8.0
+/FlightData.Models/bin/Debug/net8.0
+/FlightData.Repositories/bin/Debug/net8.0
