@@ -8,10 +8,10 @@
 
     <ItemGroup>
       <Folder Include="Dto\" />
-      <Folder Include="Mappings\" />
     </ItemGroup>
 
     <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="13.0.1" />
       <PackageReference Include="EFCore.ModelBuilderExtensions" Version="1.0.0" />
     </ItemGroup>
 

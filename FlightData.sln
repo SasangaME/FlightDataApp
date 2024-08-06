@@ -19,6 +19,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightData.Repositories", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightData.BusinessLogic", "FlightData.BusinessLogic\FlightData.BusinessLogic.csproj", "{B5E060C7-5F4F-4674-9331-931E0F815761}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HttpRequests", "HttpRequests", "{C608252E-212E-4122-B7A5-8F9D696C7060}"
+	ProjectSection(SolutionItems) = preProject
+		FlightData.API.http = FlightData.API.http
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,6 +65,7 @@ Global
 		{991416F7-743E-4E06-9DC1-A328720A3CE1} = {287486FC-4A32-43A3-9A2D-E782A9E657A2}
 		{DF6E99D4-C30C-49D5-8A2C-DD4621339381} = {287486FC-4A32-43A3-9A2D-E782A9E657A2}
 		{B5E060C7-5F4F-4674-9331-931E0F815761} = {287486FC-4A32-43A3-9A2D-E782A9E657A2}
+		{C608252E-212E-4122-B7A5-8F9D696C7060} = {287486FC-4A32-43A3-9A2D-E782A9E657A2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {923C273D-9481-479E-AA99-CC8C07AFA579}

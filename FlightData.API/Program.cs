@@ -1,4 +1,7 @@
+using AutoMapper;
+using FlightData.API.Middleware;
 using FlightData.Db.DbContext;
+using FlightData.Models.Mappings;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -7,6 +10,16 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<FlightDataContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("FlightData")));
+
+var mapperConfig = new MapperConfiguration(config
+    =>
+{
+    config.AddProfile(new FlightDataProfile());
+});
+var mapper = mapperConfig.CreateMapper();
+builder.Services.AddSingleton(mapper);
+
+builder.Services.AddExceptionHandler<ExceptionHandler>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
